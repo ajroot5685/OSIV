@@ -1,6 +1,6 @@
 ## 🎫 기능명세
 
-### /users/{id}/wrong-case
+### `/users/{id}/wrong-case`
 
 DTO를 사용하지만 필드에 Lazy 로딩 데이터를 보유한 엔티티가 존재한다.
 
@@ -16,7 +16,7 @@ DTO를 사용하지만 필드에 Lazy 로딩 데이터를 보유한 엔티티가
 - LazyInitializationException
 - Lazy 로딩 실패 오류 발생
 
-### /users/{id}/correct-case
+### `/users/{id}/correct-case`
 
 DTO를 사용하고 Lazy 로딩된 데이터를 사용하지 않으므로, OSIV 설정과 관계없이 정상 응답을 반환한다.
 
